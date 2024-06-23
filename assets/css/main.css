@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+
+    @font-face {
+        font-family: 'Yekan';
+        src: url("/assets/webFonts/yekan-font/Yekan.woff") format('woff'),
+            url("/assets/webFonts/yekan-font/yekan.eot") format('eot'),
+            url("/assets/webFonts/yekan-font/yekan.ttf") format('ttf')
+        ;
+    }
+    @font-face {
+        font-family: 'IranYekan';
+        src: url("/assets/webFonts/yekan-font/Qs_Iranyekan.ttf") format('ttf')
+        ;
+    }
+    
+    @font-face {
+        font-family: 'IranyekanBlack';
+        src: url("/assets/webFonts/yekan-font/Qs_Iranyekan black.ttf") format('ttf')
+        ;
+    }
+    @font-face {
+        font-family: 'IranyekanBold';
+        src: url("/assets/webFonts/yekan-font/Qs_Iranyekan bold.ttf") format('ttf')
+        ;
+    }
+    @font-face {
+        font-family: 'IranyekanExtrablack';
+        src: url("/assets/webFonts/yekan-font/Qs_Iranyekan extrablack.ttf") format('ttf')
+        ;
+    }
+    @font-face {
+        font-family: 'IranyekanExtrabold';
+        src: url("/assets/webFonts/yekan-font/Qs_Iranyekan extrabold.ttf") format('ttf')
+        ;
+    }
+    @font-face {
+        font-family: 'IranyekanLight';
+        src: url("/assets/webFonts/yekan-font/Qs_IranyekanLight.ttf") format('ttf')
+        ;
+    }
+    @font-face {
+        font-family: 'IranyekanMedium';
+        src: url("/assets/webFonts/yekan-font/Qs_Iranyekan medium.ttf") format('ttf')
+        ;
+    }
+    @font-face {
+        font-family: 'IranyekanThin.';
+        src: url("/assets/webFonts/yekan-font/Qs_IranyekanThin.ttf") format('ttf')
+        ;
+    }
+}
+
+
+
+/* body{ */
+    /* font-family: 'Yekan'!important; */
+    /* font-family: 'IranYekan'!important; */
+/* }  */
